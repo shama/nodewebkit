@@ -6,6 +6,13 @@ An installer for [node-webkit](https://github.com/rogerwang/node-webkit).
 
 [![NPM](https://nodei.co/npm/nodewebkit.png?downloads=true)](https://nodei.co/npm/nodewebkit/)
 
+## ATTENTION
+
+**[node-webkit was renamed to nw.js](https://groups.google.com/d/msg/nwjs-general/V1FhvfaFIzQ/720xKVd0jNkJ)** as of version 0.12.0.  
+The new and official installer for nw.js is now `npm install nw` and the repo is located at [github.com/nwjs/npm-installer](https://github.com/nwjs/npm-installer)
+
+All future releases `>= 0.12.0` will be released through `nw`.
+
 ## usage
 Install locally to your project with: `npm install nodewebkit` and then in your `package.json` add a script:
 
