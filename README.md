@@ -65,6 +65,8 @@ To install a spcific version of node-webkit use npm with the specific version: `
 
 > *Please note:* This npm package version tracks the version of node-webkit that will be installed, with an additional build number that is used for revisions to the installer. As such `0.9.2-1` and `0.9.2-2` will both install `node-webkit@0.9.2` but the latter has newer changes to the installer.
 
+You may use `npm view nodewwebkit versions` to view the list of available versions.
+
 ## finding the path to the node-webkit binary
 
 If you would like to programmatically retrieve the path to the node-webkit binary use:
